@@ -1,0 +1,68 @@
+{
+    "name": "Technique Inference Engine (TIE) Prediction Heatmap",
+    "versions": {
+        "layer": "4.5",
+        "attack": "14",
+        "navigator": "4.8.1"
+    },
+    "domain": "enterprise-attack",
+    "description": "Heatmap of predicted techniques generated from Technique Inference Engine (TIE)",
+    "filters": {
+        "platforms": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Network",
+            "PRE",
+            "Containers",
+            "Office 365",
+            "Saas",
+            "Google Workspace",
+            "IaaS",
+            "Azure AD"
+        ]
+    },
+    "sorting": 0,
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "average",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": false,
+        "countUnscored": false
+    },
+    "hideDisabled": false,
+    "techniques": [
+        {
+            "techniqueID": "<ID техники, например T1571>",
+            "score": 1,
+            "color": "#5ee66e", 
+            "tactic": "command-and-control",
+            "metadata": [
+                {
+                    "name": "Rule",
+                    "value": "<Название правила>"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1546.011",
+            "score": 1,
+            "color": "#5ee66e",
+            "tactic": "privilege-escalation",
+            "metadata": [
+                {
+                    "name": "Rule",
+                    "value": "Злоупотребление подсистемой совместимости приложений. Новый  Shim индикатор в БД."
+                },
+                {
+                    "name": "Rule",
+                    "value": "Злоупотребление подсистемой совместимости приложений. PE Original Filename или Hash Indicator"
+                },
+                {
+                    "name": "Rule",
+                    "value": "Злоупотребление подсистемой совместимости приложений. Индикатор реестра"
+                }
+            ]
+        },
+    // копируйте блоки для описания дальнейших процедур
