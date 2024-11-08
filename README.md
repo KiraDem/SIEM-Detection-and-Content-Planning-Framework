@@ -82,16 +82,16 @@
 - 2 — Высокий риск FP Rate – 40-75% (правило создаёт значительную нагрузку на аналитиков, постоянно требует доработок и внесения исключений при изменениях в инфраструктуре).
 - 1 — Очень высокий риск (FP Rate – 75+%) (крайне шумное и неинформативное правило, проще осуществлять детект другими средствами, чем обрабатывать все сработки).
 
-![image](https://github.com/user-attachments/assets/44861874-d8b8-4501-a017-b89925af8218)
+![image](https://github.com/user-attachments/assets/88b43d27-24c7-4dcc-9bb0-0a2ada3aaf1d)
 
 
 #### Реализация процесса планирования разработки контента обнаружения]
 Пример — OS Windows 
-![Rule_selection_soc_forum2 drawio](https://github.com/user-attachments/assets/e86a81be-1e16-4075-b049-35a9c1062184)
+![image](https://github.com/user-attachments/assets/e86a81be-1e16-4075-b049-35a9c1062184)
 Пример — Network
-![Rule_selection_soc_forum2 drawio (1)](https://github.com/user-attachments/assets/6e6693fe-9293-4864-bfe0-727e23e2ebfa)
+![image](https://github.com/user-attachments/assets/6e6693fe-9293-4864-bfe0-727e23e2ebfa)
 Пример — Bussiness Critical Applications + OS Linux
-![Rule_selection_soc_forum2 drawio (2)](https://github.com/user-attachments/assets/da55e4da-5532-4746-b890-64a5e8c96a4a)
+![image](https://github.com/user-attachments/assets/da55e4da-5532-4746-b890-64a5e8c96a4a)
 
 
 ### Работа с дополнительным материалом
